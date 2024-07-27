@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="no_connect_1">#303030</color>
+    <color name="no_connect_2">#626262</color>
+    <color name="no_connect_3">#fff</color>
+    <color name="connect_1">#0d6644</color>
+    <color name="connect_2">#1ad18a</color>
+    <color name="pay_select">#1FFFA9</color>
+    <color name="pay_no_select">#787878</color>
+</resources>
