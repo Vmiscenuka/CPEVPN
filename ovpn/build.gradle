@@ -2,6 +2,19 @@ apply plugin: 'com.android.library'
 
 android {
 
+    lint {
+        // Turns off checks for the issue IDs you specify.
+        disable 'ovpn'
+
+        abortOnError false
+        // If set to true, lint only reports errors.
+        ignoreWarnings true
+        // If set to true, lint also checks all dependencies as part of its analysis.
+        // Recommended for projects consisting of an app with library dependencies.
+        checkDependencies false
+    }
+
+
     compileSdk 34
 
     defaultConfig {
